@@ -1,0 +1,18 @@
+
+ api:
+   base_url: "https://api.elevenlabs.io/v1/text-to-speech/"
+   xi_api_key: ""
+   read_timeout: 1000
+   request_timeout: 3000
+
+ voice_settings:
+   stability: 0.79
+   similarity_boost: 0.64
+   style: 0.73
+   use_speaker_boost: True
+
+ tts:
+   model_id: ""
+   voice_id: ""
+   output_folder: ""
+   chunk_size: 1024
